@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<!-- CONTENT -->
+	<file path="content.opf">
+		<ignore>
+			<code>m-007</code>
+			<reason>article within a book requires page reference</reason>
+		</ignore>
+	</file>
+	<file path="content.opf">
+		<ignore>
+			<code>m-079</code>
+			<reason>is not a collection - "Ebook looks like a collection"</reason>
+		</ignore>
+	</file>
+	<!-- TITLEPAGE -->
+	<!-- COLOPHON -->
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>s-044</code>
+			<reason>ebook itself is a song: poem or verse semantic, without descendant stanza element</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>t-011</code>
+			<reason>no end punctuation as not using complete sentences</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>no end punctuation as not using complete sentences</reason>
+		</ignore>
+	</file>
+	<!-- SVG FILES -->
+</se-lint-ignore>
